@@ -1,0 +1,246 @@
+body {
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('resources/jibwallpaper.png');
+        background-size:1759px 800px ;
+        overflow: hidden;
+        z-index: -1;
+}
+*{
+    font-family: Mali;
+}
+.wrapper-main{
+    padding: 0;
+    margin: 0 auto;
+    
+    
+}
+.profilepic{
+    height: 200px;
+    width: 280px;
+    position: relative;
+    top: 15px;
+    left:30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgb(88, 88, 88);
+}
+
+.orderlist{
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+}
+.introducevid{
+    height: auto;
+    width: 325px;
+    top: 20px;
+    left:15px;
+    position: relative;
+    border-radius: 10px;
+    border:1px solid black;
+    box-shadow: 3px 3px 5px rgb(88, 88, 88);
+}
+.kormoon{
+    text-align: center;
+}
+.kormoon2{
+    text-align: center;
+    position: relative;
+    top: -20px;
+}
+.info{
+    text-align: center;
+    line-height: 1.6;
+    position: relative;
+    top:-10px; 
+}
+
+
+.browntext{
+    color: rgb(112, 0, 0);
+}
+.bluetext{
+    color: rgb(2, 0, 109);
+}
+.mainmenu{
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg);
+    background-repeat: no-repeat;
+    background-size:1759px 100px ;
+    width: 1759px;
+    height: 100px;
+    position:relative;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px white;
+    left:-225px;
+    top:-20px;
+    transform: scale(0.8);
+}
+.pic1{
+    border-radius: 60px;
+    border: 3px solid black;
+    box-shadow: 0 0 10px rgb(254, 237, 0);
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 80px;
+    top: 20px;
+}
+.headline{
+    position: relative;
+    top:-60px;
+    left: 170px;
+}
+.bt1{
+    position: relative;
+    background-color: rgb(139, 139, 139);
+    width:120px;
+    top:-112px;
+    left:500px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    transform: scale(1.2);
+}
+.bt2{
+    position: relative;
+    width:120px;
+    background-color: rgb(139, 139, 139);
+    top:-112px;
+    left:530px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    transform: scale(1.2);
+}
+.selectedbt{
+    background-color: rgb(255, 235, 55);
+}
+.maininfonew1{
+    position: relative;
+    height: 230px;
+    width:350px;
+    background-color: rgba(240, 248, 255, 0.696);
+    border: 1px solid black;
+    border-radius: 10px;
+    left: 40px;
+    box-shadow: 0 0 10px white;
+}
+.maininfonew1 h4{
+    text-align: center;
+}
+.maininfonew1 .engname{
+    position: relative;
+    top:-20px;
+}
+.maininfonew2{
+    position: relative;
+    height: 230px;
+    width:350px;
+    background-color: rgba(240, 248, 255, 0.696);
+    border: 1px solid black;
+    border-radius: 10px;
+    top:20px;
+    left: 40px;
+    box-shadow: 0 0 10px white;
+}
+.maininfonew2 h1{
+    font-size: 25px;
+    left:75px;
+    position: relative;
+}
+.maininfonew3{
+    position: relative;
+    height: 480px;
+    width:700px;
+    background-color: rgba(240, 248, 255, 0.696);
+    border: 1px solid black;
+    border-radius: 10px;
+    top:-465px;
+    left: 420px;
+    box-shadow: 0 0 10px white;
+    text-shadow: 2px 2px 2px rgb(118, 117, 117);
+
+}
+.maininfonew4{
+    position: relative;
+    height: 480px;
+    width:150px;
+    background-color: rgba(240, 248, 255, 0.696);
+    border: 1px solid black;
+    border-radius: 10px;
+    top:-946px;
+    left: 1150px;
+    box-shadow: 0 0 10px white;
+}
+.groupcontent{
+    position: relative;
+    left:5px;
+}
+.instagram{
+    height: 75px;
+    width: 75px;
+    position: relative;
+    top:20px;
+    left:35px;
+    border-radius: 20px;
+    
+  
+}
+.instagram:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px red;
+    border: 1px solid black;
+}
+.facebook{
+    height: 75px;
+    width: 75px;
+    position: relative;
+    top:30px;
+    left:35px;
+    border-radius: 20px;
+}
+.facebook:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgb(0, 60, 255);
+    border: 1px solid black;
+}
+.Xcss{
+    height: 75px;
+    width: 75px;
+    position: relative;
+    border-radius: 20px;
+    top:40px;
+    left:35px;
+}
+.Xcss:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgb(0, 255, 8);
+    border: 1px solid black;
+}
+.Tiktok{
+    height: 75px;
+    width: 75px;
+    position: relative;
+    border-radius: 20px;
+    top:50px;
+    left:35px;
+}
+.Tiktok:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgb(251, 255, 0);
+    border: 1px solid black;
+}
+.Youtube{
+    height: 75px;
+    width: 75px;
+    position: relative;
+    border-radius: 20px;
+    top:60px;
+    left:35px;
+}
+.Youtube:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgb(255, 81, 0);
+    border: 1px solid black;
+}
