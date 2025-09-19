@@ -93,7 +93,7 @@ body {
 }
 .bt1{
     position: relative;
-    background-color: rgb(139, 139, 139);
+    background-color: rgb(233, 233, 9);
     width:120px;
     top:-112px;
     left:500px;
@@ -108,6 +108,17 @@ body {
     background-color: rgb(139, 139, 139);
     top:-112px;
     left:530px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    transform: scale(1.2);
+}
+.bt3{
+    position: relative;
+    width:120px;
+    background-color: rgb(139, 139, 139);
+    top:-112px;
+    left:560px;
     border-radius: 10px;
     border: none;
     padding: 5px;
