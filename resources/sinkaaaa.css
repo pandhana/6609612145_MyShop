@@ -46,25 +46,35 @@ body {
     left: 170px;
 }
 .profilepic {
-    height: 200px;
-    width: 300px;
+    height: 160px;
+    width: 175px;
     position: relative;
-    top: 15px;
-    left: 25px;
+    top: 10px;
+    left: 85px;
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 3px 3px 5px rgb(88, 88, 88);
 }
 .ndpic {
-    width: 325px;
+    width: 225px;
     position: relative;
-    top: 20px;
-    left: 15px;
+    top: 30px;
+    left: 55px;
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 3px 3px 5px rgb(88, 88, 88);
 }
-.maininfonew1, .maininfonew2, .maininfonew3 {
+.rdpic {
+    height: 160px;
+    width: 175px;
+    position: relative;
+    top: 10px;
+    left: 85px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgb(88, 88, 88);
+}
+.maininfonew1, .maininfonew2, .maininfonew3 , .maininfonew4{
     position: relative;
     background-color: rgba(240, 248, 255, 0.696);
     border: 1px solid black;
@@ -72,24 +82,30 @@ body {
     box-shadow: 0 0 10px white;
 }
 .maininfonew1 {
-    height: 230px;
+    height: 180px;
     width: 350px;
     left: 40px;
 }
 
 .maininfonew2 {
-    height: 230px;
+    height:180px;
     width: 350px;
     top: 20px;
     left: 40px;
 }
 
 .maininfonew3 {
-    height: 480px;
+    height: 600px;
     width: 940px;
-    top: -465px;
+    top: -550px;
     left: 420px;
     text-shadow: 2px 2px 2px rgb(118, 117, 117);
+}
+.maininfonew4 {
+    height:180px;
+    width: 350px;
+    top: 40px;
+    left: 40px;
 }
 .info {
     padding-left: 30px;
@@ -109,4 +125,40 @@ body {
 .groupcontent {
     position: relative;
     left: 5px;
+}
+.bt1{
+    position: relative;
+    background-color: rgb(139, 139, 139);
+    width:120px;
+    top:-112px;
+    left:200px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    transform: scale(1.2);
+}
+.bt2{
+    position: relative;
+    width:120px;
+    background-color: rgb(139, 139, 139);
+    top:-112px;
+    left:230px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    transform: scale(1.2);
+}
+.selectedbt{
+    background-color: rgb(255, 235, 55);
+}
+.bt3{
+    position: relative;
+    width:120px;
+    background-color: rgb(139, 139, 139);
+    top:-112px;
+    left:260px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    transform: scale(1.2);
 }
